@@ -1,0 +1,39 @@
+:root{
+    --plomo: #CCCCCC;
+    --naranjo: #FF6600;
+    --azul: #0099FF;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-search {
+    margin: 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: var(--plomo);
+}
+
+.button-plus {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: var(--naranjo);
+    color: white;
+}
+
+.button-create-acount {
+    margin: 5px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: var(--azul);
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,86 @@
+:root {
+    /* Colores */
+    --azul: #00BCD4;
+    --plomo-oscuro: #5c5c5c;
+    --blanco-palido: #efecea;
+}
+
+body {
+    /* Color de fondo distin to a la tarjeta */
+    background-color: var(--blanco-palido);
+    /* en especifico esto es para notar la diferencia 
+    entre lo que es la pagina y la tarjeta de usuario */
+}
+
+.card {
+    /* Tamaño */
+    max-width: 700px;
+    height: 510px;
+    margin: auto;
+    margin-top: 30px;
+
+    /* Fondo */
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-rect {
+    height: 110px;
+    background-color: var(--azul);
+    border-radius: 20px 20px 0px 0px;
+}
+
+img {
+    /* Tamaño */
+    width: 150px;
+    height: auto;
+    border-radius: 70%;
+    /* Redondea */
+    border: 5px solid white;
+    /* borde alrededor de la imagen */
+
+    /* Posicion */
+    margin-left: 45px;
+    /* se despega un poco de la izquierda */
+    position: relative;
+    bottom: 50px;
+    /* queda un poco por encima del rectangulo azul  */
+
+}
+
+.text-body {
+    /* Posicion del texto */
+    display: flex;
+    flex-direction: column;
+    /* ordena el texto hacia abajo */
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-right: 50px;
+    /* lo despega un poco de la izquierda */
+    position: relative;
+    bottom: 60px;
+    /* lo sube acercandolo a la imagen */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: auto;
+}
+
+h2 {
+    color: var(--plomo-oscuro);
+}
+
+p {
+    margin-top: auto;
+    color: var(--plomo-oscuro);
+}
+
+.edit-button {
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}

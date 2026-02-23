@@ -1,0 +1,102 @@
+:root {
+    /* Colores */
+    --verde: #008000;
+    --azul: #1E90FF;
+    --plomo: #cfcdcd;
+    --amarillo: #FFFFCC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto";
+}
+
+
+/* Navegador o Barra superior */
+.nav-container {
+    /* Color */
+    background-color: var(--plomo);
+    /* Posicion y tamaño de la barra en la pagina */
+    height: 80px;
+    margin-right: 170px;
+    margin-left: 170px;
+    padding: 30px;
+
+    /* Posicion de elementos */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container #search-bar {
+    width: 700px;
+    height: 30px;
+}
+
+.nav-container #login-button {
+    padding: 10px 20px;
+    background-color: var(--azul);
+    color: white;
+}
+
+/* /////////////////////////////////////////////////// */
+
+/* Cuerpo */
+.body-container {
+    /* Tamaño */
+    width: 80%;
+    margin: 0 auto;
+
+    /* Flexbox */
+    display: flex;
+}
+
+/* columna izquierda */
+.column-1 {
+    padding: 20px;
+    flex: 2;
+}
+
+/* columna derecha */
+.column-2 {
+    padding: 20px;
+    flex: 1;
+}
+
+/* /////////////////////////////////////////////////// */
+
+/* Tarjeta */
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.card p {
+    /* Le da espacio entre los textos */
+    margin: 10px 0px;
+}
+
+.text-noun {
+    /* Cambia el estilo de "sustantivo" a cursiva*/
+    font-style: italic;
+}
+
+.like-button {
+    background-color: var(--amarillo);
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.def-button {
+    background-color: var(--verde);
+    color: white;
+    padding: 7px 60px;
+}
+
+/* /////////////////////////////////////////////////// */

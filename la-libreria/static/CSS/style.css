@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(141, 196, 176);
+}
+
+header{
+    text-align: center;
+}
+
+div.librosDes{
+    text-align: center;
+}
+
+form.libro{
+    float: left;
+    display: inline;
+    width: 30%;
+}
+
+div.autor{
+    text-align: center;
+}
+
+img{
+    width: 40%;
+    height: auto;
+}

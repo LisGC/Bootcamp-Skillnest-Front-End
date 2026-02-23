@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    /* Colores */
+    --negro: #333333;
+    --azul: #00BCD4;
+    --rojo: #f1627f;
+}
+
+/* Contenedor de las tarjetas */
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+/* Barra de Navegacion */
+.nav-bar {
+    background-color: var(--negro);
+    padding: 10px;
+
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nav-bar h1,
+.nav-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+.button-close-sesion {
+    background-color: var(--azul);
+    color: white;
+    font-style: bold;
+
+    height: 30px;
+    width: 110px;
+    margin: 10px;
+
+    border: none;
+    border-radius: 5px;
+}
+
+/* ----------------------------- */
+
+/* Tarjetas */
+.card {
+    /* Tamaño */
+    max-width: 770px;
+    margin: 20px 30px 20px 20px;
+    display: flex;
+    flex-direction: column;
+
+    /* Fondo */
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ----------------------------- */
+
+/* Tarjeta de usuario */
+.header-rect {
+    height: 110px;
+    background-color: var(--azul);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.img-icon {
+    /* Tamaño */
+    width: 150px;
+    height: auto;
+    /* Redondea */
+    border-radius: 70%;
+
+    /* borde alrededor de la imagen */
+    border: 5px solid white;
+
+
+    /* Posicion */
+    /* se despega un poco de la izquierda */
+    margin-left: 45px;
+    /* queda un poco por encima del rectangulo azul  */
+    margin-top: -50px;
+
+}
+
+.profile-edit {
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.gear i {
+    font-size: 15px;
+    margin: 4px;
+    color: var(--azul);
+    text-align: center;
+}
+
+/* ----------------------------- */
+
+/* Perfil solicitud */
+.profile-icon {
+    width: 60px;
+    height: auto;
+    border-radius: 20%;
+    border: 3px solid var(--azul);
+}
+
+.conexion-request {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 7px;
+}
+
+.check i {
+    font-size: 30px;
+    margin: 4px;
+    color: var(--rojo);
+}
+
+/* ----------------------------- */
+
+/* Conexiones */
+.conexions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.conexions-icon {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px;
+    border: 3px solid grey;
+}
+
+/* ----------------------------- */
+
+/* Texto */
+.text-body {
+    /* Posicion del texto */
+    margin: 15px 20px 25px 20px;
+}
+
+.text-body h1,
+.text-body p {
+    margin: 8px 0px;
+}
+
+/* ----------------------------- */

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <meta name="autor" content="lisjaviera@gmail.com">
+    <link rel="stylesheet" href="static/CSS/style.css">
+</head>
+
+<body>
+    <form action="">
+        <h1>¡Regístrate y únete a la comunidad!</h1>
+
+        <div>
+            <label for="">Nombre:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="">Apellido:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="">Correo Electrónico:</label>
+            <input type="email">
+        </div>
+
+        <div>
+            <label for="">Contraseña:</label>
+            <input type="password">
+        </div>
+
+        <div>
+            <label for="">Confirmar Contraseña:</label>
+            <input type="password">
+        </div>
+
+        <div>
+            <label for="">Fecha de Nacimiento:</label>
+            <input type="date">
+        </div>
+
+        <div>
+            <label for="">Género:</label>
+
+            <input type="radio" name="genero" value="Masculino">
+            <label for="">Masculino</label>
+
+            <input type="radio" name="genero" value="Femenino">
+            <label for="">Femenino</label>
+
+            <input type="radio" name="genero" value="Prefiero no decir">
+            <label for="">Prefiero no decir</label>
+
+        </div>
+
+        <div>
+            <label>Suscríbete a nuestro boletín de noticias</label>
+            <input type="checkbox">
+        </div>
+
+        <div>
+            <label for="">Una descripcíon de mi mismo:</label>
+            <textarea style="display: block;"></textarea>
+        </div>
+
+        <div>
+            <label for="intereses">Seleciona tus intereses: </label>
+            <select id="intereses" name="intereses" size="4">
+                <option value="música">Música</option>
+                <option value="deportes">Deportes</option>
+                <option value="viajes">Viajes</option>
+                <option value="tecnología">Tecnología</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" value="¡Registrarse!">
+        </div>
+
+    </form>
+
+    <script type="module" src="static/js/script.js"></script>
+    
+</body>
+
+</html>

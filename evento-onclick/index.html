@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <meta name="autor" content="lisjaviera@gmail.com">
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- link fuente Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Barra superior -->
+    <nav class="nav-container">
+        <!-- Titulo pagina -->
+        <h1>Petlopedia</h1>
+
+        <!-- Barra de busqueda -->
+        <input type="search" name="search-bar" id="search-bar" placeholder="Buscar mascotas">
+
+        <!-- Boton de iniciar sesion -->
+        <button onclick="cambiarTexto()" id="login-button"> Iniciar Sesión</button>
+
+    </nav>
+
+    <!-- Cuerpo -->
+    <section class="body-container">
+
+        <!-- Columna izquierda -->
+        <div class="column-1">
+
+            <!-- Tarjetas -->
+            <div class="card">
+
+                <!-- Titulo primera tarjeta-->
+                <h2 class="gato">Gato Atigrado</h2>
+
+                <!-- Contenido de texto -->
+                <p class="text-noun">sustantivo</p>
+                <p>Plural: Gatos Atigrados</p>
+                <p>Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con
+                    una marca en forma de "M" en su frente</p>
+
+                <!-- Botton de likes -->
+                <button class="like-button" onclick="cambiarLike(id)" id="button-cat">22 me gusta</button>
+            </div>
+
+            <div class="card">
+
+                <!-- Titulo segunda tarjeta-->
+                <h2>Golden Retriever</h2>
+
+                <!-- Contenido de texto -->
+                <p class="text-noun">sustantivo</p>
+                <p>Plural: Golden Retrievers</p>
+                <p>Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para
+                    recuperar objetos sin dañarlos</p>
+
+                <!-- Botton de likes -->
+                <button class="like-button" onclick="cambiarLike(id)" id="button-dog">45 me gusta</button>
+            </div>
+
+        </div>
+
+        <!-- Columna derecha -->
+        <div class="column-2">
+
+            <!-- Tarjeta -->
+            <div class="card">
+
+                <!-- Texto -->
+                <p>Petlopedia está definida por TI</p>
+
+                <!-- Boton de agregar definicion -->
+                <button class="def-button" onclick="borrarBoton()" id="button-add">Agregar Definición</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- javaScript -->
+    <script src="static/js/script.js" defer></script>
+
+</body>
+
+</html>

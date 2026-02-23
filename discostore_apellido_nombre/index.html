@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Autora del documento -->
+    <meta name="author" content="ecosta@skillnest.com">
+    <title>DiscoStore</title>
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="nav-container"> <!--flex | una caja que contiene-->
+            <!-- Logo de la página -->
+            <div class="nav-logo">
+                <img src="static/images/music-logo.png" alt="DiscoStore">
+                <h1>DiscoStore</h1>
+            </div>
+
+            <!-- Sección de enlaces -->
+            <div class="nav-links">
+                <a href="#">Tiendas</a>
+                <a href="#">Nosotras</a>
+                <a href="#">Contacto</a>
+                <button type="button" class="btn-comprar">Comprar</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <main class="contenedor">
+        <!-- Tarjeta 1 -->
+        <div class="tarjeta">
+            <img src="static/images/thriller.png" alt="Thriller">
+            <div>
+                <h2>Thriller</h2>
+                <p>Michael Jackson</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <button type="button" class="btn-like">Me gusta</button>
+                <p>36 me gusta(s)</p>
+            </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="tarjeta">
+            <img src="static/images/nonagon-infinity.png" alt="Nonagon Infinity">
+            <div>
+                <h2>Nonagon Infinity</h2>
+                <p>King Gizzard and The Lizzard Wizard</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <button type="button" class="btn-like">Me gusta</button>
+                <p>21 me gusta(s)</p>
+            </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="tarjeta">
+            <img src="static/images/head-hunters.png" alt="Head Hunters">
+            <div>
+                <h2>Head Hunters</h2>
+                <p>Herbie Hancock</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <button type="button" class="btn-like">Me gusta</button>
+                <p>12 me gusta(s)</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <!-- Formulario de búsqueda -->
+        <form class="formulario" action="" method="">
+            <div class="formulario-control">
+                <label for="buscar-formato">Buscar por formato</label>
+                <img src="static/images/audio.png" alt="Audio" width="20">
+                <select id="buscar-formato" name="">
+                    <option value="">Todos</option>
+                    <option value="vinilos">Vinilos</option>
+                    <option value="cds">CDs</option>
+                </select>
+            </div>
+
+            <div class="formulario-control">
+                <label for="buscarGenero">Buscar por género musical</label>
+                <img src="static/images/music-note.png" alt="Nota musical" width="20">
+                <input type="text" id="buscar-genero" name="" placeholder="Pop, Rock, Jazz y más">
+            </div>
+
+            <button type="submit">Buscar</button>
+        </form>
+        <p>2025 Skillnest - Desarrollada por <a href="mailto:ecosta@skillnest.com">ecosta@skillnest.com</a></p>
+    </footer>
+
+
+    <!-- Script JS -->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

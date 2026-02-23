@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="lisjaviera@gmail.com"> <!--Autor-->
+    <title>La Librería</title> <!--Titulo pagina-->
+    <link rel="stylesheet" href="static/CSS/style.css"> <!--CSS-->
+
+<body>
+    <header> <!--Titulo pagina y bienvenida, links de navegacion paginas -->
+
+        <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-book-half"
+                viewBox="0 0 16 16">
+                <path
+                    d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+            </svg> <!--Imagen svg libro-->
+            La Librería
+        </h1>
+
+        <p>
+            ¡Bienvenido a <strong>La Librería</strong>! Aquí encontrarás <strong>libros</strong> de todo tipo.
+        </p>
+
+        <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-house" viewBox="0 0 16 16">
+                <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+            </svg> <!--Imagen svg casa-->
+            Inicio
+        </a>
+
+        <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-collection" viewBox="0 0 16 16">
+                <path
+                    d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5z" />
+            </svg> <!--Imagen svg catalogo-->
+            Catalogo
+        </a>
+
+        <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-cart" viewBox="0 0 16 16">
+                <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+            </svg> <!--Imagen svg carrito-->
+            carrito
+        </a>
+    </header>
+
+    <nav> <!-- Links -->
+
+        <h2>Categorías</h2>
+        <ul>
+            <li><a href="">Infantil</a></li>
+            <li><a href="">Juvenil</a></li>
+            <li><a href="">Ficción</a></li>
+            <li><a href="">No ficción</a></li>
+        </ul>
+
+    </nav>
+
+    <form> <!-- Buscador de inputs -->
+
+        <h2>¿Que libro buscas?</h2>
+        <p>Título o autor:
+            <input type="text" id="nlibro" placeholder="Buscar libros..."> <!--el id, es como un atributo-->
+        </p>
+        <button>Buscar</button>
+
+    </form>
+
+    <div class="librosDes"> <!--Seccion libros -->
+        <h2>Libros destacados</h2>
+        <br>
+
+        <form class="libro">
+
+            <img src="static/images/voces-en-el-parque.png" alt="Portada de Voces en el parque">
+            <h3>Voces en el parque</h3>
+            <p>Por <strong>Anthony Browne</strong></p>
+            <p>Una historia de amistad y aventuras en un parque.</p>
+            <p><strong>$10.150</strong></p>
+            <button>Añadir al carrito</button>
+
+        </form>
+
+        <form class="libro">
+
+            <img src="static/images/donde-viven-los-monstruos.png" alt="Portada de Donde viven los monstruos">
+            <h3>Donde viven los monstruos</h3>
+            <p>Por <strong>Maurice Sendak</strong></p>
+            <p>La historia de Max, un niño que viaja a un mundo de monstruos.</p>
+            <p><strong>$19.000</strong></p>
+            <button>Añadir al carrito</button>
+
+        </form>
+
+        <form class="libro">
+
+            <img src="static/images/el-soldadito-de-plomo.png" alt="Portada de El soldadito de plomo">
+            <h3>El soldadito de plomo</h3>
+            <p>Por <strong>Jörg Müller</strong></p>
+            <p>Basado en el cuento de Hans Christian Andersen.</p>
+            <p><strong>$20.500</strong></p>
+            <button>Añadir al carrito</button>
+
+        </form>
+    </div>
+
+    <div> <!--Seccion más vendidos -->
+
+        <table border="1" align="center">
+            <thead>
+                <tr>
+                    <th>Libro</th>
+                    <th>Autor</th>
+                    <th>Precio</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td><a href="">Al sur de la Alameda</a></td>
+                    <td>Lola Larra</td>
+                    <td>$15.000</td>
+
+                </tr>
+
+                <tr>
+
+                    <td><a href="">Poemas y antipoemas</a></td>
+                    <td>Nicanor Parra</td>
+                    <td>$12.500</td>
+
+                </tr>
+
+                <tr>
+
+                    <td><a href="">Hijo de ladrón</a></td>
+                    <td>Manuel Rojas</td>
+                    <td>$18.000</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="autor">
+        <p>La Librería 2025. Desarrollado por Lisbeth González Castillo</p>
+    </div>
+
+
+    <!-- Script JS -->
+    <script type="module" src="static/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Perfil</title>
+    <meta name="autor" content="lisjaviera@gmail.com">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/CSS/style.css">
+</head>
+
+<body>
+
+    <!-- navegador perfil -->
+    <nav class="nav-bar">
+
+        <!-- Titulo -->
+        <h1>Perfil</h1>
+
+        <!-- Paginas -->
+        <div class="nav-pages">
+
+            <a href="">Inicio</a>
+            <a href="">Mi Perfil</a>
+            <a href="">Encontrar Conexiones</a>
+
+            <!-- boton -->
+            <input class="button-close-sesion" type="button" value="Cerrar Sesión">
+
+        </div>
+
+    </nav>
+
+    <!-- Contiene a todas las tarjetas -->
+    <section class="content">
+
+        <div>
+            <!-- Tarjeta Usuario -->
+            <div class="card">
+
+                <!-- Fondo, rectangulo que va arriba -->
+                <div class="header-rect"></div>
+
+                <!-- Imagen del icono -->
+                <img class="img-icon" src="static/image/icon.png" alt="icono">
+
+                <!-- Cuerpo de texto -->
+                <div class="text-body">
+                    <h1>Lisbeth González Castillo</h1> <!--nombre -->
+
+                    <p>San Javier, Maule, Chile</p> <!--direccion -->
+
+                    <!--profesion o areas de interes -->
+                    <p>Ingeniera en desarrollo de videojuegos y realidad virtual | Artista 2D y 3D</p>
+
+                    <!--resumen -->
+                    <p>Pasion por el arte en todas sus formas. Usualmente hago arte, o trabajo en proyectos de
+                        programación
+                        (creando videojuegos u otros proyectos), si no me podrías encontrar leyendo o jugando
+                        videojuegos.
+                    </p>
+
+                    <!-- boton -->
+                    <div class="gear">
+                        <i class="bi bi-gear-fill"></i>
+                        <a class="profile-edit" href="">Edit profile</a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!-- Tarjeta Educacion -->
+            <div class="card">
+                <div class="text-body">
+
+                    <h2>Educacion</h2>
+
+                    <p> Skillnest - Desarrollo web Front-End (Nov-Dic 2025).</p>
+
+                    <p>Universidad de Talca - Ingeniería en Desarrollo de Videojuegos y Realidad Virtual.</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Contiene a las tarjetas del lado izquierdo -->
+        <aside>
+            <!-- Tarjeta Solicitudes de Conexión -->
+            <div class="card">
+                <div class="text-body">
+                    <h1>Solicitudes de Conexión (2)</h1>
+
+                    <!-- Primer solicitud -->
+                    <div class="conexion-request">
+                        <img class="profile-icon" src="static/image/Caius.jpg" alt="">
+                        <p>Caius Ballad</p>
+
+                        <div class="check">
+                            <i class="bi bi-check-circle"></i>
+                            <i class="bi bi-x-circle"></i>
+                        </div>
+                    </div>
+
+                    <!-- Segunda solicitud -->
+                    <div class="conexion-request">
+                        <img class="profile-icon" src="static/image/strong-bad.jpg" alt="">
+                        <p>Strong Bad</p>
+
+                        <div class="check">
+                            <i class="bi bi-check-circle"></i>
+                            <i class="bi bi-x-circle"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Tarjeta tus Conexiones -->
+            <div class="card">
+                <div class="text-body">
+                    <h1>Tus Conexiones (500+)</h1>
+
+                    <div class="conexions">
+                        <img class="conexions-icon" src="static/image/evernigth.png" alt="">
+                        <p>Evernight</p>
+                    </div>
+
+                    <div class="conexions">
+                        <img class="conexions-icon" src="static/image/gabriel.jpg" alt="">
+                        <p>Gabriel Ultrakill</p>
+                    </div>
+
+                    <div class="conexions">
+                        <img class="conexions-icon" src="static/image/oso.png" alt="">
+                        <p>Gumybear Guardia</p>
+                    </div>
+
+                    <div class="conexions">
+                        <img class="conexions-icon" src="static/image/v1.jpg" alt="">
+                        <p>V1 Ultrakill</p>
+                    </div>
+
+                </div>
+            </div>
+        </aside>
+
+
+    </section>
+
+
+    <!-- JavaScript -->
+    <script type="module" src="static/js/script.js"></script>
+</body>
+
+</html>

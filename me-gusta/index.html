@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me gusta</title>
+    <meta name="autor" content="lisjaviera@gmail.com">
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Network</h2>
+    </header>
+
+
+    <section class="box">
+
+        <h1>Your Feed</h1>
+
+        <article class="container">
+
+            <div class="column1">
+
+                <div class="card-profile">
+
+                    <img src="static/images/Profile-Photo.png" alt="imagen perfil">
+                    <h2>Adrien Desplatz</h2>
+
+                </div>
+
+            </div>
+
+            <div class="column2">
+
+
+                <div class="card">
+                    <div>
+                        <h2>Linn O.</h2>
+
+                        <p>Acabo de configurar este nuevo bot de Discord, cuéntentme que opinan ustedes. <a
+                                href="">link</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <span id="likes1">0</span> like(s)<input type="button" onclick="changeLike(1)" value="Like">
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div>
+                        <h2>Lina K.</h2>
+
+                        <p>Acabo de terminar este <a href="">nuevo comic</a>, denle un vistazo.</p>
+                    </div>
+
+                    <div>
+                        <span id="likes2">0</span> like(s)<input type="button" onclick="changeLike(2)" value="Like">
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+
+                    <div>
+                        <h2>Mateo H.</h2>
+
+                        <p>No puedo dejar de escuchar este <a href="">album</a>. ¿A quién más le gusta?</p>
+                    </div>
+
+                    <div>
+                        <span id="likes3" >0</span> like(s)<input type="button" onclick="changeLike(3)" value="Like">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+
+
+    <!-- javaScript -->
+    <script src="static/js/script.js" defer></script>
+</body>
+
+</html>

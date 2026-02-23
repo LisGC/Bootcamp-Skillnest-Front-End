@@ -1,0 +1,32 @@
+h1 {
+    text-decoration: underline wavy;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+.box1 {
+    height: 100px;
+    width: 200px;
+    background-color: lightseagreen;
+}
+
+.box2 {
+    height: 100px;
+    width: 200px;
+    background-color: fuchsia;
+}
+
+.box3 {
+    height: 100px;
+    width: 200px;
+    background-color: darkblue;
+}
