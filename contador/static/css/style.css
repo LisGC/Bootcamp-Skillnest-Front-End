@@ -1,0 +1,59 @@
+:root {
+    /* Colores */
+    --pastel: #fff7d0;
+    --blanco: #FFFFFF;
+    --rojo: #FFC5BF;
+    --amarillo: #E7F2D5;
+    --verde: #C1EDDF;
+    --negro: #5C5C5C;
+}
+
+*{
+    color: var(--negro);
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+body {
+    background-color: var(--pastel);
+}
+
+.container{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-box {
+    margin-top: 60px;
+    width: 500px;
+    background-color: var(--blanco);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+input{
+    border: none;
+}
+
+.buttons {
+    margin: 30px;
+}
+
+#negative {
+    background-color: var(--rojo);
+}
+
+#neutral {
+    background-color: var(--amarillo);
+}
+
+#positive{
+    background-color: var(--verde);
+}

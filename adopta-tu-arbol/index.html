@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta tu arbol</title>
+    <meta name="author" content="lisjaviera@gmail.com">
+
+    <!-- Fuentes de texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Cabezera de bienvenida -->
+    <header>
+        <p>Tu plataforma favorita de adopción de árboles</p>
+    </header>
+
+
+    <!-- Cuerpo de la pagina -->
+    <section class="container">
+
+        <!-- Titulo de la pagina y botones -->
+        <div class="box1">
+            <div class="title">
+                <h1>Adopta<span class="title-color1">Tu</span><span class="title-color2">Árbol</span></h1>
+            </div>
+
+            <div class="title-buttons">
+                <button class="adopt-button">Adoptar</button>
+                <button class="donate-button" onclick="donation()">Donar</button>
+            </div>
+
+        </div>
+
+        <!-- Texto de los árboles que se muestran y el select de este -->
+        <div class="box2">
+            <p>Mostrando: <span id="trees-view">Todos los Árboles</span></p>
+
+            <!-- Select con 2 opciones, al cambiar a cualquiera de las opciones se activa la funcion que le enviara el texto al span de mas arriba -->
+            <select id="trees" onchange="showSelect()">
+                <option value="todos">Todos los Árboles</option>
+                <option value="frutales">Árboles Frutales</option>
+                <option value="flores">Árboles de Flores</option>
+                <option value="ornamentales">Árboles Ornamentales</option>
+            </select>
+        </div>
+
+        <!-- Tarjetas de árboles-->
+        <div class="card-container">
+
+            <!-- columna izquierda -->
+            <div class="column1">
+                <!-- Tarjeta 1 -->
+                <div class="card">
+                    <img src="static/images/alamo.jpg" alt="imagen de un Álamo">
+
+                    <div class="card-text">
+                        <h2>Álamo</h2>
+                        <p>Árbol caducifolio, de hojas anchas y con largos pecíolos.</p>
+                    </div>
+
+                    <button class="adopt-tree-button" onclick="adopt(1)" id="tree1">Adoptar</button>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="card">
+                    <img src="static/images/pino.jpg" alt="imagen de un Pino">
+
+                    <div class="card-text">
+                        <h2>Pino</h2>
+                        <p>Árbol de la familia de las abietáceas, de tronco elevado, recto.</p>
+                    </div>
+
+                    <button class="adopt-tree-button" onclick="adopt(2)" id="tree2">Adoptar</button>
+                </div>
+
+            </div>
+
+            <!-- columna derecha -->
+            <div class="column2">
+
+                <!-- Tarjeta 3 -->
+                <div class="card">
+                    <img src="static/images/fresno.jpg" alt="imagen de un Fresno">
+
+                    <div class="card-text">
+                        <h2>Fresno</h2>
+                        <p>Árbol con tronco recto y cilíndrico, con amplia copa.</p>
+                    </div>
+
+                    <button class="adopt-tree-button" onclick="adopt(3)" id="tree3">Adoptar</button>
+                </div>
+
+
+                <!-- Tarjeta 4 -->
+                <div class="card">
+                    <img src="static/images/jacaranda.jpg" alt="imagen de un Jacaranda">
+
+                    <div class="card-text">
+                        <h2>Jacaranda</h2>
+                        <p>Árbol de copa extendida y redondeada con flores moradas.</p>
+                    </div>
+
+                    <button class="adopt-tree-button" onclick="adopt(4)" id="tree4">Adoptar</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+
+        <!-- Primer bloque de contenido -->
+        <div class="footer-container1">
+            <h2>Contáctanos</h2>
+            <div>
+                <p>Av. Principal #123</p>
+                <p>Ciudad Palma, 10000</p>
+                <p>Chile</p>
+            </div>
+
+        </div>
+
+        <!-- Segundo bloque de contenido -->
+        <div class="footer-container2">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Adopta un Árbol</a></li>
+            </ul>
+        </div>
+
+        <!-- Tercer bloque de contenido -->
+        <div class="footer-container3">
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Patrocinadores</a></li>
+                <li><a href="#">Proyectos</a></li>
+            </ul>
+        </div>
+
+        <!-- Cuarto bloque de contenido -->
+        <form class="footer-container4" action="#">
+            <h2>Suscríbete</h2>
+            <div>
+                <input class="input-email" type="email" placeholder="usuario@correo.com">
+                <input class="input-button" type="button" value="enviar">
+            </div>
+        </form>
+
+    </footer>
+
+    <!-- javaScript -->
+    <script src="static/js/script.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+/* Colores */
+:root {
+    --verde-suave: #94C37B;
+    --verde-pastel-claro: #B6D8A8;
+    --verde-hoja: #68A84E;
+    --verde-oliva-suave: #799E65;
+    --verde-oliva-oscuro: #2B5C17;
+    --verde-brillante: #009E13;
+    --verde-pastel-medio: #92C47B;
+    --gris-claro: #EEEEEE;
+    --blanco: #FFFFFF;
+    --negro: #000000;
+}
+
+/* Resetea toda la pagina */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+/* titulos en bold o negrita */
+h1,
+h2 {
+    font-weight: 750;
+}
+
+/* Cabecera */
+header {
+    /* tamaño */
+    height: 45px;
+
+    /* color */
+    background-color: var(--verde-suave);
+
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor del body */
+.container {
+    /* posicion */
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+}
+
+/* caja de titulo y botones de adoptar donar en la parte de arriba de la pagina */
+.box1 {
+    /* posicion y borde */
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--negro);
+
+    color: var(--verde-brillante);
+
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-color1 {
+    color: var(--verde-pastel-claro);
+}
+
+.title-color2 {
+    color: var(--verde-pastel-medio);
+}
+
+.box1 button {
+    padding: 10px 17px;
+    border: none;
+
+    /* texto */
+    font-size: large;
+    font-weight: bold;
+}
+
+.adopt-button {
+    margin-right: 15px;
+    background-color: var(--verde-pastel-claro);
+}
+
+.donate-button {
+    background-color: var(--verde-hoja);
+}
+
+/* //////////////////////////////////////////// */
+
+/* caja de los arboles que se muestran y select */
+.box2 {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Contenedor de las cartas de arboles */
+.card-container {
+    display: flex;
+    gap: 30px;
+}
+
+.column1 {
+    flex: 1;
+}
+
+.column2 {
+    flex: 1;
+}
+
+/* tarjeta */
+.card {
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    background-color: var(--gris-claro);
+    border-radius: 10px;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+img {
+    /* tamaño */
+    width: 40%;
+}
+
+.adopt-tree-button {
+    padding: 8px 13px;
+    background-color: var(--verde-pastel-claro);
+    border: none;
+}
+
+
+/* //////////////////////////////////////////// */
+
+/* pie de pagina */
+footer {
+    background-color: var(--verde-oliva-suave);
+    padding: 30px;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/* contenedor 1 de contactanos */
+.footer-container1 {
+    margin-left: 9%;
+    flex: 10%;
+}
+
+.footer-container1 h2 {
+    color: var(--blanco);
+}
+
+.footer-container1 div {
+    margin-top: 10px;
+}
+
+/* contenedor 2 de paginas, izquierda: inicio-sobre nosotros-adopta un arbol */
+.footer-container2 {
+    flex: 10%;
+}
+
+/* contenedor 3 de paginas, derecha: contacto-patrocinadores-proyectos */
+.footer-container3 {
+    flex: 20%;
+}
+
+/* listas del contenedor 2 y 3 */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--negro);
+}
+
+/* contenedor 4 de suscribete */
+.footer-container4 {
+    margin-right: 10%;
+    flex: 5%;
+}
+
+.footer-container4 h2 {
+    color: var(--blanco);
+}
+
+/* div del mail y boton de envio */
+.footer-container4 div {
+    margin-top: 30px;
+    margin-left: -50px;
+}
+
+.input-email {
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.input-button {
+    padding: 5px 8px;
+    margin-left: -5px;
+    border: none;
+
+    background-color: var(--verde-oliva-oscuro);
+    color: var(--blanco);
+}
+
+/* //////////////////////////////////////////// */
