@@ -22,4 +22,3 @@ function showSelect() {
     viewText.textContent = select.options[select.selectedIndex].text;
 }
 
-var content = document.querySelector('link[rel="import"]').import;
