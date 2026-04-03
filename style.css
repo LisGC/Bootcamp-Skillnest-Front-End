@@ -1,0 +1,15 @@
+/* Colores */
+:root{
+    --naranja-claro: #eeb97d;
+    --naranja-oscuro: #db6731;
+    --morado-oscuro: #2c1835;
+}
+
+/* Resetea toda la pagina */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
