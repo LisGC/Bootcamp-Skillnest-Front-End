@@ -11,6 +11,8 @@
     margin: 50;
     box-sizing: border-box;
     font-family: "Lato";
+
+    background-color: var(--naranja-oscuro);
 }
 
 /* titulos en bold o negrita */
@@ -21,12 +23,5 @@ h1 {
 
 /* Contenedor del body */
 .container {
-    /* posicion */
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-
-    /* flexbox */
-    display: flex;
-    flex-direction: column;
+    background-color: var(--naranja-claro);
 }
