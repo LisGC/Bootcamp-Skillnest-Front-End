@@ -12,9 +12,19 @@ header {
     height: 50px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+
+.boton-inicio {
+    margin: 2%;
+}
+
+#b-inicio{
+    border: none;
+    padding: 10%;
+    background-color: rgb(255, 255, 255);
 }
 
 /* caja que contiene todos los elementos del body */

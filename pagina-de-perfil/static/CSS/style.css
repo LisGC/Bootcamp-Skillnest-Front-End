@@ -11,6 +11,17 @@
     --rojo: #f1627f;
 }
 
+.boton-inicio {
+    background-color: var(--negro);
+}
+
+#b-inicio{
+    margin: 1%;
+    border: none;
+    padding: 0.5% 2%;
+    background-color: rgb(255, 255, 255);
+}
+
 /* Contenedor de las tarjetas */
 .content {
     display: flex;

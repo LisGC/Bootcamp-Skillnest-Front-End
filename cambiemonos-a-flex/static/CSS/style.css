@@ -5,6 +5,16 @@
     padding: 20px;
 }
 
+.boton-inicio {
+    margin: 1%;
+}
+
+#b-inicio{
+    border: none;
+    padding: 1%;
+    background-color: rgb(247, 166, 158);
+}
+
 .top-nav {
     height: 150px;
     background-color: #ffcc00;

@@ -18,6 +18,17 @@ body {
     background-color: var(--pastel);
 }
 
+.boton-inicio {
+    margin: 1%;
+}
+
+#b-inicio{
+    font-size: 20px;
+    border: none;
+    padding: 1%;
+    background-color: var(--blanco);
+}
+
 .container{
     height: 600px;
     display: flex;

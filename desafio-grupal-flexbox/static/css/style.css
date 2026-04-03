@@ -15,6 +15,16 @@ body {
     background-color: var(--blue);
 }
 
+.boton-inicio {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#b-inicio{
+    border: none;
+    padding: 1%;
+}
+
 section {
     display: flex;
     justify-content: center;

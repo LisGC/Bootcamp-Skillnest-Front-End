@@ -1,8 +1,10 @@
 /* Colores */
 :root{
-    --naranja-claro: #eeb97d;
-    --naranja-oscuro: #db6731;
+    --naranja-claro: #e0aa479d;
+    --naranja-oscuro: #e08b63;
     --morado-oscuro: #2c1835;
+    --naranja: #a8451e73;
+    --negro: #000000;
 }
 
 /* Resetea toda la pagina */
@@ -17,11 +19,42 @@
 
 /* titulos en bold o negrita */
 h1 {
+    text-align:center;
     font-weight: 750;
     color: var(--morado-oscuro);
 }
 
 /* Contenedor del body */
-.caja {
+.caja1,.caja2,.caja3
+{
+    margin-top: 1%;
+    margin-right: 4%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-align:center;
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.caja2 
+{
     background-color: var(--naranja-claro);
+    padding: 1%;
+}
+
+.caja3 
+{
+    padding: 1%;
+    background-color: var(--naranja);
 }

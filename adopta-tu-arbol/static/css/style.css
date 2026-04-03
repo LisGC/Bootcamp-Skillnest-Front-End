@@ -40,6 +40,16 @@ header {
     align-items: center;
 }
 
+.boton-inicio {
+    margin-right: 3%;
+    margin-left: -10%;
+}
+
+#b-inicio{
+    border: none;
+    padding: 10% 30%;
+}
+
 /* Contenedor del body */
 .container {
     /* posicion */

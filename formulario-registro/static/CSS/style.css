@@ -7,6 +7,16 @@ body{
     border-style: dotted;
 }
 
+.boton-inicio {
+    margin-bottom: 2%;
+}
+
+#b-inicio{
+    border: none;
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
 div{
     margin: 2%;
 }

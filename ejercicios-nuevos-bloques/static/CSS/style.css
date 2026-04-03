@@ -1,3 +1,13 @@
+.boton-inicio {
+    margin: 1%;
+}
+
+#b-inicio{
+    border: none;
+    padding: 1%;
+    background-color: rgb(247, 166, 158);
+}
+
 .container {
     width: 950px;
     background-color: #eaeaea;

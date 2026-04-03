@@ -1,3 +1,14 @@
+*{
+    margin-left: 5px;
+}
+
 div{
     padding: 1%;
+}
+
+
+#b-inicio{
+    border: none;
+    padding: 1% 2%;
+    background-color: rgb(247, 166, 158);
 }

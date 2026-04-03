@@ -12,6 +12,17 @@ body {
     entre lo que es la pagina y la tarjeta de usuario */
 }
 
+.boton-inicio {
+    background-color: var(--negro);
+}
+
+#b-inicio{
+    margin: 1%;
+    border: none;
+    padding: 0.5% 2%;
+    background-color: rgb(247, 166, 158);
+}
+
 .card {
     /* Tamaño */
     max-width: 700px;
