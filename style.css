@@ -7,9 +7,26 @@
 
 /* Resetea toda la pagina */
 * {
-    padding: 0;
-    margin: 0;
+    padding: 20;
+    margin: 50;
     box-sizing: border-box;
     font-family: "Lato";
 }
 
+/* titulos en bold o negrita */
+h1 {
+    font-weight: 750;
+    color: var(--morado-oscuro);
+}
+
+/* Contenedor del body */
+.container {
+    /* posicion */
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+}
